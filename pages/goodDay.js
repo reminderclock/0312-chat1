@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 import axios from 'axios'
-const goodDay = () => {
+const GoodDay = () => {
   const [userInput, setUserInput] = useState('');
   const [result, setResult] = useState('');
   useEffect(()=> {
@@ -20,4 +20,4 @@ const goodDay = () => {
     <div>{result}</div>
   </div>
 }
-export default goodDay
+export default GoodDay
